@@ -1,0 +1,98 @@
+html, body {
+  background-color: #EBDCCB;
+  font-family: "Barlow";
+}
+
+.app {
+  margin: 0 auto;
+  height: 100%;
+  width: 80%;
+  background-color: #91818A;
+  color: #FAF8D4;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.shopHeader {
+  width: 100%;
+  box-shadow: 2px 5px 5px 0px rgba(0,0,0, 0.3);
+  margin-bottom: 20px;
+}
+
+.navbar {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.navbar li {
+  display: flex;
+  padding: 8px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: inherit;
+  min-width: 130px;
+  box-shadow: 0px 8px 16px 0px black;
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown-content li {
+  display: block;
+  text-align: left;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+  background-color: #91818A;
+}
+
+.description {
+  text-align: left;
+}
+
+.description > p {
+  margin-left: 15px;
+
+}
+
+.description img {
+  width: 100%;
+}
+
+.item-display {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.item {
+  margin: auto;
+}
+
+.faicon {
+  font-size: 30px;
+}
+
+.footer {
+  text-align: left;
+  background-color: #B2A3B5;
+  border-radius: 0 0 10px 10px;
+}
+
+footer li {
+  list-style: none;
+  padding: 2px;
+}
+
+h3 {
+  text-decoration: underline;
+}
